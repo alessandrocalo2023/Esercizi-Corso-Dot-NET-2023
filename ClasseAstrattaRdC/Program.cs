@@ -8,10 +8,10 @@ namespace ClasseAstrattaRdC
         static void Main(string[] args)
         {
             Comune comune = new Comune();
-            Cittadino cittadino = new Cittadino("Mario", "Rossi", 61, 2, false);
-            Studente studente = new Studente("Mario", "Rossi", 61, 2, false, 80);
-            StudenteUNI studenteUni = new StudenteUNI("Mario", "Rossi", 61, 2, false, 25);
-            Militare militare = new Militare("Mario", "Rossi", 61, 2, false, true);
+            Cittadino cittadino = new Cittadino("Mario", "Rossi", 61, 2, false,true);
+            Studente studente = new Studente("Mario", "Rossi", 61, 2, false, 80,true);
+            StudenteUNI studenteUni = new StudenteUNI("Mario", "Rossi", 61, 2, false, 25,true);
+            Militare militare = new Militare("Mario", "Rossi", 61, 2, false, true,true);
 
             Console.WriteLine("Verifica cittadini aventi diritto al Reddito di Cittadinanza");
 
@@ -27,6 +27,12 @@ namespace ClasseAstrattaRdC
             cittadino.Eta = Convert.ToInt16(Console.ReadLine());
             Console.WriteLine("figli:");
             cittadino.Figli = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("studente si/no");
+            
+            //da aggiungere nei controlli
+            cittadino.StatoStudente = Convert.ToBoolean(Console.ReadLine());
+            //studente  e studente universitario
+            
             Console.WriteLine("studente - voto diploma:");
             studente.MediaMat = Convert.ToInt16(Console.ReadLine());
             Console.WriteLine("studente Universitario - media voti :");
@@ -112,11 +118,11 @@ namespace ClasseAstrattaRdC
             internal decimal _figli;
             //internal decimal _pil;
             internal bool _debiti;
-            
+            internal bool _statoStudente; 
             //controllo raggiungimento valori attesi
               public int parametro;
 
-            public Cittadino(string Nome, string Cognome, int Età, decimal Figli, bool debiti) : base(Nome, Cognome, Età)
+            public Cittadino(string Nome, string Cognome, int Età, decimal Figli, bool debiti,bool StatoStudente) : base(Nome, Cognome, Età)
 
             {
                 _nome = Nome;
@@ -124,6 +130,8 @@ namespace ClasseAstrattaRdC
                 _età = Età;
                 _figli = Figli;
                 _debiti = debiti;
+                _statoStudente = StatoStudente;
+
             }
             //metodi GET e SET
             public string Nome
@@ -142,7 +150,7 @@ namespace ClasseAstrattaRdC
                 set
                 {
                     if (value >= 18 && value <= 25 || value > 60)
-                        parametro = 5;
+                        parametro =4;
                     Comune.Controllo(parametro);
                         //_età = value;
                 }
@@ -153,7 +161,7 @@ namespace ClasseAstrattaRdC
                 set
                 {
                     if (value == false)
-                        parametro = 5;
+                        parametro = 4;
                     Comune.Controllo(parametro); 
                 }
             }
@@ -162,16 +170,21 @@ namespace ClasseAstrattaRdC
                 get { return _figli; }
                 set
                 {
-                    if (value >1)
-                        parametro = 5;
+                    if (value > 1)
+                        parametro = 4;
                     Comune.Controllo(parametro); ;
                 }
+            }
+            
+            public bool StatoStudente 
+            { get { return _statoStudente; }
+                    set{ _statoStudente = value; }
             }
         }
         internal class Militare : Cittadino
         {
             internal bool _statoMilitare;
-            public Militare(string Nome, string Cognome, int Età, decimal Figli, bool debiti, bool statoMilitare) : base(Nome, Cognome, Età, Figli, debiti)
+            public Militare(string Nome, string Cognome, int Età, decimal Figli, bool debiti, bool statoMilitare,bool StatoStudente) : base(Nome, Cognome, Età, Figli, debiti,StatoStudente)
             {
                 _statoMilitare = statoMilitare;
             }
@@ -181,7 +194,7 @@ namespace ClasseAstrattaRdC
                 set
                 {
                     if (value == true)
-                        parametro = 5;
+                        parametro = 4;
                     Comune.Controllo(parametro); ;
                 }
             }
@@ -189,19 +202,26 @@ namespace ClasseAstrattaRdC
         internal class Studente : Cittadino
         {
             internal decimal _mediaMAT;
-            public Studente(string Nome, string Cognome, int Età, decimal Figli, bool debiti, decimal MediaMAT) :
-                                                                          base(Nome, Cognome, Età, Figli, debiti)
+            
+            public Studente(string Nome, string Cognome, int Età, decimal Figli, bool debiti, decimal MediaMAT, bool StatoStudente) :
+                                                                          base(Nome, Cognome, Età, Figli, debiti,StatoStudente)
             {
                 _mediaMAT = MediaMAT;
+                
             }
             public decimal MediaMat
             {
                 get { return _mediaMAT; }
                 set
-                {
+                {if (_statoStudente == true)
+                    {
+                        parametro = 0;
+                        Comune.Controllo(parametro);
+                    }
+                    else
                     if (value >= 90)
-                        parametro = 5;
-                    Comune.Controllo(parametro); ;
+                        parametro = 4;
+                        Comune.Controllo(parametro); 
                 }
             }
 
@@ -209,20 +229,27 @@ namespace ClasseAstrattaRdC
         internal class StudenteUNI : Cittadino
         {
             internal decimal _mediaUni;
+            
 
-            public StudenteUNI(string Nome, string Cognome, int Età, decimal Figli, bool debiti, decimal MediaUni) :
-                                                                           base(Nome, Cognome, Età, Figli, debiti)
+            public StudenteUNI(string Nome, string Cognome, int Età, decimal Figli, bool debiti, decimal MediaUni, bool StatoStudente) :
+                                                                           base(Nome, Cognome, Età, Figli, debiti,StatoStudente)
             {
                 _mediaUni = MediaUni;
+                
             }
             public decimal MediaUni
             {
                 get { return _mediaUni; }
                 set
-                {
+                {  if (_statoStudente == true)
+                    {
+                        parametro = 0;
+                        Comune.Controllo(parametro);
+                    }
+                    else
                     if (value >= 28)
 
-                        parametro = 5;
+                        parametro = 4;
                     Comune.Controllo(parametro); ;
                 }
             }
