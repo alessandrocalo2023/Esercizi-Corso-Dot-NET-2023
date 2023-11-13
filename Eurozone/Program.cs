@@ -7,7 +7,7 @@ using System.Runtime.CompilerServices;
 
 namespace Eurozone
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -22,20 +22,23 @@ namespace Eurozone
             //ONU , UE , Eurozona
             State Italia = new EUROState("Italia", "50M", true, true, true, true);
 
-            State.EurocentralBank(Texas);
-            State.EurocentralBank(CoreaNord);
-            State.EurocentralBank(Giappone);
-            State.EurocentralBank(Svizzera);
+            //State.EurocentralBank(Texas);
+            //State.EurocentralBank(CoreaNord);
+            //State.EurocentralBank(Giappone);
+            //State.EurocentralBank(Svizzera);
             State.EurocentralBank(Italia);
             Console.WriteLine("vuoi proseguire ?");
             Console.WriteLine("premi il tasto invio");
             Console.Read();
-            State.CorteEuropeaRights(Texas);
-            State.CorteEuropeaRights(CoreaNord);
-            State.CorteEuropeaRights(Giappone);
-            State.CorteEuropeaRights(Svizzera);
-            State.CorteEuropeaRights(Italia);
-           
+            //State.CorteEuropeaRights(Texas);
+            //State.CorteEuropeaRights(CoreaNord);
+            //State.CorteEuropeaRights(Giappone);
+            //State.CorteEuropeaRights(Svizzera);
+            //State.CorteEuropeaRights(Italia);
+ //test da libreria
+            HumanRights.CorteEuropeaRights(Texas);
+            HumanRights.CorteEuropeaRights(Italia);
+
 
         }
         //interfaccia definizione caratteri base di definizione di uno stato
@@ -54,10 +57,10 @@ namespace Eurozone
             public void EuroMoney();
         }
 
-        abstract internal class country
+        abstract public class country
         {//dettagliare i parametri base dello stato
             protected string population;
-            protected string name;
+            public string name;
             public void Country(string Population, string Name) { }
             //public string Population { get { return population; } set { population = value; } }
             //public string Name { get { return name; } set { name= value; } }
