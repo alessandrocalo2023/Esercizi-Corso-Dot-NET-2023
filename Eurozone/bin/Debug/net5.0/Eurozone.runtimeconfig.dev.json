@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Tiziana\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Tiziana\\.nuget\\packages"
+    ]
+  }
+}
