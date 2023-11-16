@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Eurozone
-build_property.ProjectDir = C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Eurozone\
+build_property.RootNamespace = AdminFunctions
+build_property.ProjectDir = C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\

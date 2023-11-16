@@ -1,0 +1,4 @@
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\obj\Debug\net5.0\AdminFunctions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\obj\Debug\net5.0\AdminFunctions.AssemblyInfoInputs.cache
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\obj\Debug\net5.0\AdminFunctions.AssemblyInfo.cs
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\obj\Debug\net5.0\AdminFunctions.csproj.CoreCompileInputs.cache

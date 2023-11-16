@@ -155,7 +155,7 @@ namespace Eurozone
         internal class EUState : State, IONU, IEU
             {
                 internal bool eu;
-                public EUState(string Name, string Population, bool ONU, bool EU, bool EURO, bool HumanRights) : base(Name, Population, ONU, EU, EURO, HumanRights)
+                public EUState(string Name, string Population, bool ONU, bool EU, bool EURO, bool HumanRights): base(Name, Population, ONU, EU, EURO, HumanRights)
                 {
                     eu = EU;
                 }
