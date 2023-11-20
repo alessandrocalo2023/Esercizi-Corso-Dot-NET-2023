@@ -2,3 +2,14 @@ C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Ass
 C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\obj\Debug\net5.0\AdminFunctions.AssemblyInfoInputs.cache
 C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\obj\Debug\net5.0\AdminFunctions.AssemblyInfo.cs
 C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\obj\Debug\net5.0\AdminFunctions.csproj.CoreCompileInputs.cache
+C:\Users\Tiziana\Source\Repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\bin\Debug\net5.0\AdminFunctions.exe
+C:\Users\Tiziana\Source\Repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\bin\Debug\net5.0\AdminFunctions.deps.json
+C:\Users\Tiziana\Source\Repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\bin\Debug\net5.0\AdminFunctions.runtimeconfig.json
+C:\Users\Tiziana\Source\Repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\bin\Debug\net5.0\AdminFunctions.runtimeconfig.dev.json
+C:\Users\Tiziana\Source\Repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\bin\Debug\net5.0\AdminFunctions.dll
+C:\Users\Tiziana\Source\Repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\bin\Debug\net5.0\AdminFunctions.pdb
+C:\Users\Tiziana\Source\Repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\obj\Debug\net5.0\AdminFunctions.dll
+C:\Users\Tiziana\Source\Repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\obj\Debug\net5.0\refint\AdminFunctions.dll
+C:\Users\Tiziana\Source\Repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\obj\Debug\net5.0\AdminFunctions.pdb
+C:\Users\Tiziana\Source\Repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\obj\Debug\net5.0\AdminFunctions.genruntimeconfig.cache
+C:\Users\Tiziana\Source\Repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\Associations\AdminFunctions\obj\Debug\net5.0\ref\AdminFunctions.dll

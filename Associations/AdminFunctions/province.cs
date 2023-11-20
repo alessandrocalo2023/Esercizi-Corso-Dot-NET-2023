@@ -9,16 +9,25 @@ using System.Xml.Linq;
 
 namespace AdminFunctions
 {
-    internal class province:geoArea 
+   public class province:geoArea 
     {
-        string _name;
+        //blocco di codice per la suddivisione della provincia in comuni
+        public string _name;
+       
+        
         public string Name { get { return _name; } set { _name = value; } }
-        municipality _municipality;
-
-        public void Province(string Name)
+        public string[] _municSharePop = new string[100] ;
+      
+        
+        public province(string Name)
         {
-            _name = Name;
-        }
+              _name = Name;
+             }
+        //fine blocco
+        
+        
+        municipality _municipality;
+        
         public void AddMunicipality(municipality Municipality)
         { _municipality = Municipality; }
         public void removeMunicipality(municipality Municipality)

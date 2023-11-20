@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AdminFunctions
 {
-    internal class euID
+    public class euID
     {
         string _id;
         euCitizen _euCitizenforID;

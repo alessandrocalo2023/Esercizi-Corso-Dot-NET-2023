@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AdminFunctions
 {
-    abstract class euCitizenPublicServ 
+    abstract public class euCitizenPublicServ 
     {
         //+ Wellfare Services(): abstract
         //+ HNS(EU ID) : overload
