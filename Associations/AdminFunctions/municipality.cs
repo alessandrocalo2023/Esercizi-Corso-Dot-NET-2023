@@ -11,19 +11,20 @@ namespace AdminFunctions
     public class municipality : euCitizenPublicServ
     {
         string _name;
-        euID _euid;
+        
         public string Name { get { return _name; } set { _name = value; } }
-        euCitizen _eucitizen;
+        euCitizen _euCitizen;
+        euID _euId;
         province _province;
         int _choiceService;
 
 
-        public void Municipality(string Name,province Province,euID ID) 
+        public municipality(string Name,province Province) 
         {
             _name = Name;
             _province = Province;
             //passo un oggetto euID cosìda poter richiamare la funzione di creazione dell'ID 
-            _euid = ID;
+           
      
            
       
@@ -31,20 +32,34 @@ namespace AdminFunctions
        //Acquisizione dati del cittadino e gestione servizi
         public void ServicesCitizen(euCitizen euCitizen)
         {
-            _eucitizen = euCitizen;
-            Console.WriteLine($"Wellcome : Citizen Municipaly Services of" + " " + _eucitizen._muniname);
-            Console.WriteLine("Choose your service:" );
-            Console.WriteLine("1)ID release");
-            Console.WriteLine("2)SSN assistance");
-            Console.WriteLine("2)LAW assistance");
-            Console.WriteLine("2)Welfare services");
-            _choiceService = Convert.ToInt16(Console.ReadLine());
-       }
+            _euCitizen = euCitizen;
+            _euId = _euCitizen._id;
+            while (Console.ReadKey().Key != ConsoleKey.Enter)
+            {
+                Console.WriteLine($"Wellcome : Citizen Municipaly Services of" + " " + _euCitizen._muniname);
+                Console.WriteLine("Choose your service:");
+                Console.WriteLine("1)ID release");
+                Console.WriteLine("2)SSN assistance - not available");
+                Console.WriteLine("3)LAW assistance  - not available");
+                Console.WriteLine("4)Welfare services  - not available");
+                _choiceService = Convert.ToInt16(Console.ReadLine());
+
+                switch (_choiceService)
+                {
+                    case 1:
+                        {
+                            //create and print new ID
+                          _euId.EuIDCreate(_euCitizen);
+                        }
+                        break;
+                }
+            }
+        }
         //interfaccia gestione cittadino
         public void AddCitizen(euCitizen euCitizen)
-                        { _eucitizen = euCitizen; }
+                        { _euCitizen = euCitizen; }
         public void RemoveCitizen(euCitizen Citizen)
-        { _eucitizen = null; }
+        { _euCitizen = null; }
 
         public void ChangeProvince(province Province)
         { _province.removeMunicipality(this);

@@ -9,7 +9,7 @@ using AdminFunctions.Classes;
 
 namespace AdminFunctions
 {
-    public class state : geoArea, IONU
+    public class state : geoArea
 
     {
         internal string _flag;

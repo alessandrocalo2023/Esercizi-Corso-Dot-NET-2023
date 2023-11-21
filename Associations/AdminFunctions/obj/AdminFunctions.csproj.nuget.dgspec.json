@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tiziana\\source\\repos\\alessandrocalo2023\\Esercizi-Corso-Dot-NET-2023\\Associations\\AdminFunctions\\AdminFunctions.csproj": {}
+    "C:\\Users\\Tiziana\\Source\\Repos\\alessandrocalo2023\\Esercizi-Corso-Dot-NET-2023\\Associations\\AdminFunctions\\AdminFunctions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tiziana\\source\\repos\\alessandrocalo2023\\Esercizi-Corso-Dot-NET-2023\\Associations\\AdminFunctions\\AdminFunctions.csproj": {
+    "C:\\Users\\Tiziana\\Source\\Repos\\alessandrocalo2023\\Esercizi-Corso-Dot-NET-2023\\Associations\\AdminFunctions\\AdminFunctions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tiziana\\source\\repos\\alessandrocalo2023\\Esercizi-Corso-Dot-NET-2023\\Associations\\AdminFunctions\\AdminFunctions.csproj",
+        "projectUniqueName": "C:\\Users\\Tiziana\\Source\\Repos\\alessandrocalo2023\\Esercizi-Corso-Dot-NET-2023\\Associations\\AdminFunctions\\AdminFunctions.csproj",
         "projectName": "AdminFunctions",
-        "projectPath": "C:\\Users\\Tiziana\\source\\repos\\alessandrocalo2023\\Esercizi-Corso-Dot-NET-2023\\Associations\\AdminFunctions\\AdminFunctions.csproj",
+        "projectPath": "C:\\Users\\Tiziana\\Source\\Repos\\alessandrocalo2023\\Esercizi-Corso-Dot-NET-2023\\Associations\\AdminFunctions\\AdminFunctions.csproj",
         "packagesPath": "C:\\Users\\Tiziana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tiziana\\source\\repos\\alessandrocalo2023\\Esercizi-Corso-Dot-NET-2023\\Associations\\AdminFunctions\\obj\\",
+        "outputPath": "C:\\Users\\Tiziana\\Source\\Repos\\alessandrocalo2023\\Esercizi-Corso-Dot-NET-2023\\Associations\\AdminFunctions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tiziana\\AppData\\Roaming\\NuGet\\NuGet.Config",

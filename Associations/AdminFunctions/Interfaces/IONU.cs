@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AdminFunctions.Interfaces
 {
-    interface IONU
+    public interface IONU
     {
-        //-  Territory Defense()
-        //-  Popupalation Control()
+        public void TerritoryDefense();
+        public void  PopulationControl();
     }
 }

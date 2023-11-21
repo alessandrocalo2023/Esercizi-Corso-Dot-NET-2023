@@ -8,18 +8,18 @@ namespace AdminFunctions
 {
     public class euCitizen
     {
-        string _name;
-        string _birthday;
-        string _address;
+        public string _name;
+        public string _birthday;
+        public string _address;
         public string _city;
         public string _muniname;// name of Municipaly
-        internal string _id;
+        public euID _id;
         public string Name { get { return _name; } set { _name = value; } }
         public string Birthname { get { return _birthday; } set { _birthday = value; } }
         public string Address { get { return _address; } set { _address = value; } }
         
         public euCitizen(string Name,string Birthday,string Address,
-                         string City,string MuniName,string ID)
+                         string City,string MuniName,euID ID)
         {   
             _name = Name;
             _birthday = Birthday;

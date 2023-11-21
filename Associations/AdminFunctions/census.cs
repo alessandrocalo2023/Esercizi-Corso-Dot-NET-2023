@@ -17,7 +17,7 @@ namespace AdminFunctions
         province _province;
 
         //numero totale dei Comuni;
-        int _numbermunicipality;
+       
         int _i;
         int _j;
         int _count=0;

@@ -9,16 +9,18 @@ namespace AdminFunctions
     public class euID
     {
         string _id;
-        euCitizen _euCitizenforID;
+        euCitizen _euCitizenID;
 
       //in euCitizenPublicServ
-        public void EuID(string ID)
-        { _id = ID; }
-        public string EuIDCreate(euCitizen EuCitizenID) {
-            _euCitizenforID = EuCitizenID;
+        public euID(string ID)
+                              { _id = ID; }
+        public void EuIDCreate(euCitizen EuCitizenID) {
+            _euCitizenID = EuCitizenID;
             //costruire un metodo che crea l'ID combinando nome e data di nascita del Cittadino
-            _id = _euCitizenforID.Name;
-            return _id;
+            _id = _euCitizenID.Name + _euCitizenID._birthday;
+            Console.WriteLine("ID code is:" + _id);
+
+     
         }
     }
 }
