@@ -1,0 +1,15 @@
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyClone\obj\Debug\net5.0\SpotifyClone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyClone\obj\Debug\net5.0\SpotifyClone.AssemblyInfoInputs.cache
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyClone\obj\Debug\net5.0\SpotifyClone.AssemblyInfo.cs
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyClone\obj\Debug\net5.0\SpotifyClone.csproj.CoreCompileInputs.cache
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyClone\bin\Debug\net5.0\SpotifyClone.exe
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyClone\bin\Debug\net5.0\SpotifyClone.deps.json
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyClone\bin\Debug\net5.0\SpotifyClone.runtimeconfig.json
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyClone\bin\Debug\net5.0\SpotifyClone.runtimeconfig.dev.json
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyClone\bin\Debug\net5.0\SpotifyClone.dll
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyClone\bin\Debug\net5.0\SpotifyClone.pdb
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyClone\obj\Debug\net5.0\SpotifyClone.dll
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyClone\obj\Debug\net5.0\refint\SpotifyClone.dll
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyClone\obj\Debug\net5.0\SpotifyClone.pdb
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyClone\obj\Debug\net5.0\SpotifyClone.genruntimeconfig.cache
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyClone\obj\Debug\net5.0\ref\SpotifyClone.dll

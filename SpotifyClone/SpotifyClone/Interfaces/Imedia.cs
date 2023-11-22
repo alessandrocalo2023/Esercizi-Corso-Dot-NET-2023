@@ -9,16 +9,16 @@ namespace SpotifyClone.Interfaces
 {
     internal interface Imedia
     {
-        public void Play(song Song);
+        public void Play(Song Song);
        
         //la canzone riparte da capo
-        public void Stop();
+        public void Stop(Song Song);
        
         //la canzone riparte dal punto di interruzione
-        public void Pause();
+        public void Pause(Song Song);
 
-        public void Next();
-        public void Previuos();
+        public void Next(Song Song);
+        public void Previuos(Song Song);
 
     }
 }

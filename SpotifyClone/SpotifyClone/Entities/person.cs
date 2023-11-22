@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SpotifyClone.Entities
 {
-    abstract internal class person
+    abstract public class Person
     {
         private string _name;
         private string _surname;

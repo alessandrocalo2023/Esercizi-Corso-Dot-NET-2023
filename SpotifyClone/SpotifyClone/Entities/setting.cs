@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SpotifyClone.Entities
 {
-    internal class setting
+    internal class Setting
     {
         bool _Theme; //Dark,Basic
         string equalizer;

@@ -8,26 +8,29 @@ using System.Threading.Tasks;
 
 namespace SpotifyClone.Entities
 {
-    internal class song
+    public class Song
     {
         public  string _title;
         public int _duration;
-        private List<artist> _artist;
-        private List<album> _album;
-        private List<group> _group;
+        private List<Artist> _artist;
+        private List<Album> _album;
+        private List<Group> _group;
         private string _genre;
         private string _releaseDate;
 
 
-        public song(string Title, int songDurat) { }
-        public song()
-        {
-            _title = string.Empty;
-            _duration = 0;
-            _releaseDate =string.Empty;
-            _artist = new List<artist>();
-            _album = new List<album>();
-            _group = new List<group>();
+        public Song(string Title, int songDurat) {
+            _title = Title;
+            _duration = songDurat;
         }
+      //  public song()
+       // {
+        //    _title = string.Empty;
+            //_duration = 0;
+          //  _releaseDate =string.Empty;
+            //_artist = new List<artist>();
+            //_album = new List<album>();
+            //_group = new List<group>();
+       // }
     }
 }

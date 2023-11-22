@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace SpotifyClone.Entities
 {
-    internal class playlist
+   public class Playlist
     {
         string _name;
-        user User;
-        song _Song;
+        User User;
+        Song _Song;
         int _SongDurat;
-        private List<song> _song;
+        private List<Song> _song;
 
         public string Name { get => _name; set => _name = value; }
-        internal user User1 { get => User; set => User = value; }
-        internal List<song> Song { get => _song; set => _song = value; }
+        internal User User1 { get => User; set => User = value; }
+        internal List<Song> Song { get => _song; set => _song = value; }
 
         public void AddSong() { }
         public void RemoveSong() { }
