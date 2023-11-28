@@ -9,7 +9,7 @@ namespace SpotifyClone.Interfaces
 {
     internal interface Imedia
     {
-        public void Play(Song Song);
+        public void Play(User User, Song Song);
        
         //la canzone riparte da capo
         public void Stop(Song Song);

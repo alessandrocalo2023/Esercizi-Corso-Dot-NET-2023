@@ -10,8 +10,8 @@ namespace SpotifyClone.Entities
     public class Group
     {
         int _choiceMenu;
-        public string _name;
-        public string _bio;
+        private string _name;
+        private string _bio;
         Song _Song;
         Artist _Artist;
         Album _Album;
@@ -41,7 +41,7 @@ namespace SpotifyClone.Entities
             Console.WriteLine("(1) Show - Songs");
             Console.WriteLine("(2) Add ");
             Console.WriteLine("(3) Remove ");
-            Console.WriteLine("(4) Artist - Show ");
+            Console.WriteLine("(4) Artista - Show ");
             Console.WriteLine("(5) Add ");
             Console.WriteLine("(6) Remove ");
             Console.WriteLine("(7) Show   - Albums ");

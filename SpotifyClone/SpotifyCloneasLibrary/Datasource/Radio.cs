@@ -10,8 +10,6 @@ namespace SpotifyClone.Entities
    public class Radio
     {
         int _choiceMenu;
-        public string _dateFormatnow;
-        int _ListenTime;
         private string _nameRadio;
         private List<Album> AlbumList;
         private List<Song> Playlist;
@@ -29,8 +27,6 @@ namespace SpotifyClone.Entities
             _User = User;
             _Start= Start;
             _Song= Song;
-           // _dateFormatnow= dateFormatnow;
-            _ListenTime= User._ListenTime;
             Console.WriteLine("*****************************");
             Console.WriteLine("*****   Radio - Menu ********");
             Console.WriteLine("*****************************");
@@ -46,7 +42,7 @@ namespace SpotifyClone.Entities
                 case 1:
                     break;
                 case 0:
-                    _User.UserMenu(User, _Start, _Song, _dateFormatnow);
+                    _User.UserMenu(User, _Start, _Song);
                     break;
             }
         }

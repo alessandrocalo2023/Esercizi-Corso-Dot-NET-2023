@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,14 +9,10 @@ namespace SpotifyClone.Entities
 {
     public class Guest
     {
-        public int _choiceMenu;
-        public int _ListenTime;
-        public string _cultureinfo;
+        int _choiceMenu;
         public Guest() { }
-        public void GuestMenu(Guest GuestLogin,Start Start,int ListenTime, string cultureinfo)
+        public void GuestMenu(Guest GuestLogin,Start Start)
         {
-            _ListenTime=ListenTime;
-            _cultureinfo = cultureinfo;
             Console.WriteLine("*****************************");
             Console.WriteLine("*****   Guest - Menu ********");
             Console.WriteLine("*****************************");

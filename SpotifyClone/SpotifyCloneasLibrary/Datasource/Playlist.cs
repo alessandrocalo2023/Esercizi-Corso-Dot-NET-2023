@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,14 +9,10 @@ namespace SpotifyClone.Entities
     public class Playlist
     {   int _choiceMenu;
         string _name;
-        string _choicePlaylist;
-        public int _ListenTime;
-        public string _cultureinfo;
-        // User _User;
-        // Song _Song;
+       // User _User;
+       // Song _Song;
         //int _SongDurat;
         List<Song> _SongList= new List<Song>();
-        List<Playlist> _Playlist=new List<Playlist>();
         Mediacomponent Mediacomponent = new Mediacomponent();
 
         public string Name { get => _name; set => _name = value; }
@@ -29,11 +24,9 @@ namespace SpotifyClone.Entities
             //_User = User;
             _SongList = Songs;
         }
-        public void PlayListMenu(User User, List<Playlist> Playlist, int ListenTime,string cultureinfo)
+        public void PlayListMenu(List<Playlist> Playlist)
         {
-            _Playlist = Playlist;
-            _ListenTime= ListenTime;
-            _cultureinfo = cultureinfo;
+          
 
             Console.WriteLine("*****************************");
             Console.WriteLine("*****   PlayList - Menu ********");
@@ -58,13 +51,7 @@ namespace SpotifyClone.Entities
                     }
                     break;
                 case 2:
-                    Console.WriteLine("Chooose your Album to play");
-                    _choicePlaylist = Console.ReadLine();
-                    List<Playlist> _PlaylistChoice = _Playlist.Where(playlist => playlist._name.Equals(_choicePlaylist)).ToList().ToList();
-                    foreach (var playlist in _PlaylistChoice)
-                    {
-                        Mediacomponent.PlayList(User,_SongList, _ListenTime,_cultureinfo);
-                    }
+                    Mediacomponent.PlayList(_SongList);
                     break;
                 case 3:
                     break;

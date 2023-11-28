@@ -11,8 +11,6 @@ namespace SpotifyClone.Entities
     public class Song
     {
         public int _choiceMenu;
-        public string _dateFormatnow;
-        public int _ListenTime;
         //Attributes of single song
         public  string _title;
         public int _duration;
@@ -45,13 +43,10 @@ namespace SpotifyClone.Entities
             _rating = Rating;
             _AddedToPlaylist = AddedToPlaylist;
         }
-        public void SongMenu(Song Song,User User,Start Start, string cultureinfo)
-        {
+        public void SongMenu(Song Song,User User,Start Start) {
             _song = Song;
             _User = User;
             _Start = Start;
-            //_dateFormatnow = dateFormatnow;
-            _ListenTime= User._ListenTime;
             Console.WriteLine("*****************************");
             Console.WriteLine("*****   Song - Menu ********");
             Console.WriteLine("*****************************");
@@ -62,13 +57,11 @@ namespace SpotifyClone.Entities
             switch (_choiceMenu)
             {
                 case 1:
-                    //implementare ricerca per sorgente audio o
-                    //verificare valore scelta da Menu start
-
-                    Mediacomponent.Play(User,_song);
+                    //implementare ricerca per sorgente audio o verificare valore scelta da Menu start
+                    Mediacomponent.Play(_song);
                     break;
                 case 0:
-                    _User.UserMenu(User, Start, Song,cultureinfo);
+                    _User.UserMenu(User, Start, Song);
                     break;
             }
         }

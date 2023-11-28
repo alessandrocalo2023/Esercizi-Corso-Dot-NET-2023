@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,8 +9,6 @@ namespace SpotifyClone.Entities
    public class Album
     { int i;
         int _choiceMenu;
-        int _ListenTime;
-        public string _cultureinfo;
         public string _nameLP;
         public string _nameAlbum;
         public string _genre;
@@ -22,7 +19,7 @@ namespace SpotifyClone.Entities
         Artist _artistAlbum;
         bool _liveVers;
         List<Album> _Albums;
-        public List<Song> _AlbumSongs=new List<Song>();
+        List<Song> _AlbumSongs=new List<Song>();
         Mediacomponent Mediacomponent = new Mediacomponent();
 
         public Album(string nameAlbum, string releaseDate, int trackNum, string Genre,int Rating,
@@ -36,16 +33,16 @@ namespace SpotifyClone.Entities
             _artistAlbum = artistAlbum;
             _liveVers = liveVers;
             _AlbumSongs = Songs;
+
+
+
         }
 
-        public void AlbumMenu(User User,List<Album> AlbumList, int ListenTime,string cultureinfo) {
+        public void AlbumMenu(List<Album> AlbumList) {
 
           _Albums=AlbumList;
-            _ListenTime = ListenTime;
-            _cultureinfo= cultureinfo;
-
-
-
+           
+            
 
 
             Console.WriteLine("*****************************");
@@ -62,33 +59,28 @@ namespace SpotifyClone.Entities
             switch (_choiceMenu)
             {
                 case 1:
-                    {
-                        foreach (var Album in _Albums)
-
+                    {foreach (var Album in _Albums)
+                        {
                             for (i = 0; i < _Albums.Count; i++)
-                            { //Album._rating }
-
-
-                                foreach (var Albums in _Albums)
-                                {
-                                    if (Albums != null)
-
-                                        Console.WriteLine(Albums._nameAlbum);
-                                    //insert function to write a log file to confirm correct print 
-                                }
-
+                            { //Album._rating;
                             }
+
+
+                            foreach (var Albums in _Albums)
+                            {
+                                if (Albums != null)
+
+                                    Console.WriteLine(Albums._nameAlbum);
+                                //insert function to write a log file to confirm correct print 
+                            }
+                        }
                     }
                     break;
-
                 case 2:
-                    Console.WriteLine("Chooose your Album to play");
-                    _nameLP = Console.ReadLine();
-                    List<Album>_AlbumChoice = _Albums.Where(album => album._nameAlbum.Equals(_nameLP)).ToList().ToList();
-                    foreach (var album in _AlbumChoice)
-                    {
-                        Mediacomponent.PlayAlbum(User,_AlbumSongs, ListenTime, cultureinfo) ;
-                    } 
+                    //Console.WriteLine("Chooose your Album to play");
+                    //_nameLP = Console.ReadLine();
+                                                            
+                     Mediacomponent.PlayAlbum(_AlbumSongs); 
                     break;
                 case 3:
                     break;

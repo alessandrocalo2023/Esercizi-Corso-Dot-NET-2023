@@ -17,7 +17,7 @@ namespace SpotifyClone.Entities
         private List<Group> GroupList = new List<Group>();
         private List<Album> AlbumList = new List<Album>();
         private List<Song> AlbumSongs = new List<Song>();
-        private List<Artist> ArtistList = new List<Artist>();
+
         public Artist(string Name, string Bio, string Date, string Genre, int Rating)
 
         {
@@ -30,35 +30,26 @@ namespace SpotifyClone.Entities
 
         }
 
-        public void ArtistMenu(User User)
+        public void ArtistMenu()
         {
             Console.WriteLine("*****************************");
             Console.WriteLine("*****   Artist - Menu ********");
             Console.WriteLine("*****************************");
             Console.WriteLine();
-            Console.WriteLine("1) Show      - Artist ");
-            Console.WriteLine("2) Show      - Songs");
-            Console.WriteLine("3) Add ");
-            Console.WriteLine("4) Remove ");
-            Console.WriteLine("5) Show      - Album");
-            Console.WriteLine("6) Add  ");
-            Console.WriteLine("7) Remove");
-            Console.WriteLine("8) Show      - Group");
-            Console.WriteLine("9) Add  ");
-            Console.WriteLine("10) Remove  ");
+            Console.WriteLine("1) Show      - Songs");
+            Console.WriteLine("2) Add ");
+            Console.WriteLine("3) Remove ");
+            Console.WriteLine("4) Show      - Album");
+            Console.WriteLine("5) Add  ");
+            Console.WriteLine("6) Remove");
+            Console.WriteLine("7) Show      - Group");
+            Console.WriteLine("8) Add  ");
+            Console.WriteLine("9) Remove  ");
             Console.WriteLine("0) User menu");
             _choiceMenu = Convert.ToInt16(Console.ReadLine());
             switch (_choiceMenu)
             {
                 case 1:
-                    foreach (var Artist in ArtistList)
-                    {
-                        if (Artist != null)
-                            Console.WriteLine(Artist._Name);
-                        //insert function to write a log file to confirm correct print 
-                    }
-                    break;
-                case 2:
                     {
                         foreach (var Song in AlbumSongs)
                         {
@@ -69,12 +60,12 @@ namespace SpotifyClone.Entities
                     }
                     break;
                           //recall metod AddSong
-                case 3:
+                case 2:
                     break;
-                case 4:
+                case 3:
                      //recall metod RemoveSong with search option
                     break;
-                case 5:
+                case 4:
                     foreach (var Album in AlbumList)
                     {
                         if (Album != null)
@@ -82,22 +73,18 @@ namespace SpotifyClone.Entities
                     }
 
                         break;
+                case 5:
+                    break;
                 case 6:
                     break;
-                case 7:
-                    break;
-                case 8: {
-                        foreach (var Group in GroupList)
-                      
-                            if (Group != null)
-                                Console.WriteLine(Group._name);
+                case 7: {
+                        foreach (var Song in GroupList)
+                        {
+                            if (Song != null)
+                                Console.WriteLine(Song);
                         }
                         break;
-                          case 9:
-                            break;
-                        case 10:
-                            break;
-                       
+                    }
                 case 0:
                     //UserMenu(User, Start, Song);
                     break;
