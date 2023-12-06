@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpotifyClone", "SpotifyClone\SpotifyClone.csproj", "{7B1D2808-E6A3-4D57-B69E-27A79C0B3C0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyClonePresentation", "SpotifyClonePresentation\SpotifyClonePresentation.csproj", "{8E7D65D4-AF01-4415-A3CE-545378EFAEB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyCloneasLibrary", "SpotifyCloneasLibrary\SpotifyCloneasLibrary.csproj", "{029091C9-E484-4740-92DF-B56EA8F966D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyCloneServices", "SpotifyCloneServices\SpotifyCloneServices.csproj", "{9A712B7B-76A0-43F2-9B41-F4B0EE61BE4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyCloneDatasource", "SpotifyCloneDatasource\SpotifyCloneDatasource.csproj", "{C11CB7A5-96A2-49E6-A594-6BDF8A98C4B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7B1D2808-E6A3-4D57-B69E-27A79C0B3C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B1D2808-E6A3-4D57-B69E-27A79C0B3C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7B1D2808-E6A3-4D57-B69E-27A79C0B3C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7B1D2808-E6A3-4D57-B69E-27A79C0B3C0B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{029091C9-E484-4740-92DF-B56EA8F966D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{029091C9-E484-4740-92DF-B56EA8F966D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{029091C9-E484-4740-92DF-B56EA8F966D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{029091C9-E484-4740-92DF-B56EA8F966D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7D65D4-AF01-4415-A3CE-545378EFAEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7D65D4-AF01-4415-A3CE-545378EFAEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7D65D4-AF01-4415-A3CE-545378EFAEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7D65D4-AF01-4415-A3CE-545378EFAEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A712B7B-76A0-43F2-9B41-F4B0EE61BE4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A712B7B-76A0-43F2-9B41-F4B0EE61BE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A712B7B-76A0-43F2-9B41-F4B0EE61BE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A712B7B-76A0-43F2-9B41-F4B0EE61BE4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C11CB7A5-96A2-49E6-A594-6BDF8A98C4B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11CB7A5-96A2-49E6-A594-6BDF8A98C4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11CB7A5-96A2-49E6-A594-6BDF8A98C4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11CB7A5-96A2-49E6-A594-6BDF8A98C4B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

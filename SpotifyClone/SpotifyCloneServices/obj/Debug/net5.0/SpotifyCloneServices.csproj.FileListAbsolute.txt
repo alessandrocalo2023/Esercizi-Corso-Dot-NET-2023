@@ -1,0 +1,16 @@
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneServices\obj\Debug\net5.0\SpotifyCloneServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneServices\obj\Debug\net5.0\SpotifyCloneServices.AssemblyInfoInputs.cache
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneServices\obj\Debug\net5.0\SpotifyCloneServices.AssemblyInfo.cs
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneServices\obj\Debug\net5.0\SpotifyCloneServices.csproj.CoreCompileInputs.cache
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneServices\obj\Debug\net5.0\SpotifyCloneServices.sourcelink.json
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneServices\bin\Debug\net5.0\SpotifyCloneServices.deps.json
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneServices\bin\Debug\net5.0\SpotifyCloneServices.dll
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneServices\bin\Debug\net5.0\SpotifyCloneServices.pdb
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneServices\bin\Debug\net5.0\SpotifyCloneDatasource.dll
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneServices\bin\Debug\net5.0\SpotifyCloneDatasource.pdb
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneServices\obj\Debug\net5.0\SpotifyCloneServices.csproj.AssemblyReference.cache
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneServices\obj\Debug\net5.0\SpotifyCloneServices.csproj.CopyComplete
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneServices\obj\Debug\net5.0\SpotifyCloneServices.dll
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneServices\obj\Debug\net5.0\refint\SpotifyCloneServices.dll
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneServices\obj\Debug\net5.0\SpotifyCloneServices.pdb
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneServices\obj\Debug\net5.0\ref\SpotifyCloneServices.dll

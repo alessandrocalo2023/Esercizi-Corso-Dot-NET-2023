@@ -1,0 +1,12 @@
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneDatasource\obj\Debug\net5.0\SpotifyCloneDatasource.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneDatasource\obj\Debug\net5.0\SpotifyCloneDatasource.AssemblyInfoInputs.cache
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneDatasource\obj\Debug\net5.0\SpotifyCloneDatasource.AssemblyInfo.cs
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneDatasource\obj\Debug\net5.0\SpotifyCloneDatasource.csproj.CoreCompileInputs.cache
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneDatasource\obj\Debug\net5.0\SpotifyCloneDatasource.sourcelink.json
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneDatasource\bin\Debug\net5.0\SpotifyCloneDatasource.deps.json
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneDatasource\bin\Debug\net5.0\SpotifyCloneDatasource.dll
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneDatasource\bin\Debug\net5.0\SpotifyCloneDatasource.pdb
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneDatasource\obj\Debug\net5.0\SpotifyCloneDatasource.dll
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneDatasource\obj\Debug\net5.0\refint\SpotifyCloneDatasource.dll
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneDatasource\obj\Debug\net5.0\SpotifyCloneDatasource.pdb
+C:\Users\Tiziana\source\repos\alessandrocalo2023\Esercizi-Corso-Dot-NET-2023\SpotifyClone\SpotifyCloneDatasource\obj\Debug\net5.0\ref\SpotifyCloneDatasource.dll
